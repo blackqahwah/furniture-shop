@@ -1,0 +1,35 @@
+.bluebtn{
+    background-color: #6B92C1;
+    color: white;
+    animation: pulse 1500ms infinite;
+
+}
+
+.bluebtn :hover{
+background-color: #4A78AF;
+color:white;
+}
+@keyframes pulse {
+
+    0%{
+        box-shadow: #6B92C1 0 0 0 0;
+    }
+
+    75%{
+        box-shadow: #6B92C100 0 0 0 16px;
+    }
+}
+
+.brownbtn{
+    background-color: #C19A6B;
+    color: white;
+}
+
+brownbtn :hover{
+    background-color: #AF814A;
+    color:white;
+}
+
+.para{
+    text-justify: auto;
+}
