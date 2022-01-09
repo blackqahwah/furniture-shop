@@ -1,12 +1,12 @@
 .bluebtn{
-    background-color: #6B92C1;
+    background-color: #415EA3;
     color: white;
     animation: pulse 1500ms infinite;
 
 }
 
-.bluebtn :hover{
-background-color: #4A78AF;
+.bluebtn:hover{
+background-color: #2D4A63;
 color:white;
 }
 @keyframes pulse {
@@ -21,15 +21,45 @@ color:white;
 }
 
 .brownbtn{
-    background-color: #C19A6B;
+    background-color: #704F32;
     color: white;
 }
 
-brownbtn :hover{
-    background-color: #AF814A;
+.brownbtn:hover{
+    background-color: #63462D;
     color:white;
 }
 
 .para{
     text-justify: auto;
+    color: white;
+    vertical-align: middle;
+    max-width: 70vw;
+    background-color:#415EA3;
+    padding:2vh;
+}
+
+.btn-tiny-brown{
+    background-color: #704F32;
+    color:white
+}
+
+.btn-tiny-brown:hover{
+    background-color: #63462D;
+    color:white;
+}
+
+.btn-tiny-blue{
+    background-color: #415EA3;
+    color:white;
+}
+
+.btn-tiny-blue:hover{
+    background-color: #2D4A63;
+    color:white;
+}
+
+.btn-groups{
+    margin-top:2vh;
+    padding:2vh;
 }

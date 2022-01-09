@@ -229,13 +229,13 @@ sup {
   top: -0.5em;
 }
 
-a {
+/* a {
   color: #0d6efd;
   text-decoration: underline;
-}
-a:hover {
+} */
+/* a:hover {
   color: #0a58ca;
-}
+} */
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
@@ -6118,7 +6118,7 @@ textarea.form-control-lg {
   z-index: 2;
   display: flex;
   justify-content: center;
-  padding: 0;
+  padding: 3rem;
   margin-right: 15%;
   margin-bottom: 1rem;
   margin-left: 15%;
