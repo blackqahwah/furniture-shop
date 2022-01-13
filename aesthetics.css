@@ -63,3 +63,27 @@ color:white;
     margin-top:2vh;
     padding:2vh;
 }
+
+.cartblue{
+    background-color: #415EA3;
+    color: white;
+}
+
+.cartblue:hover{
+    background-color: #2D4A63;
+    color:white;
+}
+
+.cartbrown{
+    background-color: #704F32;
+    color: white;
+}
+
+.cartbrown:hover{
+    background-color: #63462D;
+    color:white;
+}
+
+#cartbuttons{
+    padding: 3vh;
+}
