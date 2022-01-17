@@ -121,7 +121,7 @@ color:white;
 }
 
 #categs{
-    padding: 2vh;
+    padding: 7vh;
 }
 
 .containme{
@@ -165,4 +165,8 @@ background-color: #63462D;
 
     justify-content: space-evenly;
     padding: 2vh;
+}
+
+html{
+    scroll-behavior: smooth;
 }
