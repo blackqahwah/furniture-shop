@@ -5,7 +5,7 @@
 }
 
 .nopblue:hover{
-background-color: #2D4A63;
+background-color: #2f51a0;
 color:white;
 }
 
@@ -37,7 +37,7 @@ color:white;
 }
 
 .bluebtn:hover{
-background-color: #2D4A63;
+background-color: #2f51a0;
 color:white;
 }
 @keyframes pulse {
@@ -87,7 +87,7 @@ color:white;
 }
 
 .btn-tiny-blue:hover{
-    background-color: #2D4A63;
+    background-color: #2f51a0;
     color:white;
 }
 
@@ -102,7 +102,7 @@ color:white;
 }
 
 .cartblue:hover{
-    background-color: #2D4A63;
+    background-color: #2f51a0;
     color:white;
 }
 
@@ -120,9 +120,6 @@ color:white;
     padding: 3vh;
 }
 
-#categs{
-    padding: 7vh;
-}
 
 .containme{
     display:grid;
