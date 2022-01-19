@@ -31,8 +31,14 @@ color:white;
 
 .bluebtn{
     background-color: #415EA3;
-    color: white;
+    color: white !important;
     animation: pulse 1500ms infinite;
+
+    padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
 
 }
 
@@ -40,16 +46,7 @@ color:white;
 background-color: #2f51a0;
 color:white;
 }
-@keyframes pulse {
 
-    0%{
-        box-shadow: #6B92C1 0 0 0 0;
-    }
-
-    75%{
-        box-shadow: #6B92C100 0 0 0 16px;
-    }
-}
 
 .brownbtn{
     background-color: #704F32;
@@ -166,4 +163,15 @@ background-color: #63462D;
 
 html{
     scroll-behavior: smooth;
+}
+
+.nav-item{
+    
+    margin-bottom: 3vh;
+}
+
+.nav-item a{
+    color:#63462D;
+    text-decoration: none;
+    font-weight: bold;
 }

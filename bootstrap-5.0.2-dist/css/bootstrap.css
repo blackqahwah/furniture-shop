@@ -6013,7 +6013,7 @@ textarea.form-control-lg {
   display: flex;
   flex-direction: column;
   max-width: 100%;
-  visibility: hidden;
+  visibility:hidden;
   background-color: white;
   background-clip: padding-box;
   outline: 0;
@@ -6045,7 +6045,7 @@ textarea.form-control-lg {
 
 .offcanvas-body {
   flex-grow: 1;
-  padding: 1rem 1rem;
+  padding: 3vh;
   overflow-y: visible;
   background-color: white;
 }

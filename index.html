@@ -24,42 +24,54 @@
 <body>
 
   <header class="sticky-top">
-    
-    <nav class="navbar navbar-light bg-light d-flex flex-row justify-content-end">
-      <div class="container py-3 py-lg-2 px-4 text-center">
+        <nav class="navbar navbar-light bg-light ">
+     
+      <div class="container-fluid py-3 py-lg-2 px-4">
       
-        <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-2 py-lg-1 mx-auto">
+        <div class="row row-cols-sm-2 row-cols-md-2 row-cols-lg-2 py-lg-1 mx-auto">
 
-        <div class="col-lg-6 col-md-8 mx-auto"> 
+        <div class="col-lg-9 col-md-8 mx-auto"> 
           <a class="links" href="index.html">
             <h6 class="fw-bold" id="heading">THE BROWN 
               <span class="markmebrown">FURNITURE</span>SHOP</h6>
           <p class="lead text-muted">Where style meets taste</p>
         </a>
+
+        
         </div>
 
-        <button class="navbar-toggler col col-3 mx-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <button class="navbar-toggler col col-3 " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
 
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+           
+            <div class=" offcanvas-title col-lg-9 col-md-8 mx-auto" id="offcanvasNavbarLabel"> 
+              <a class="links" href="index.html">
+                <h6 class="fw-bold" id="heading">THE BROWN 
+                  <span class="markmebrown">FURNITURE</span>SHOP</h6>
+              <p class="lead text-muted">Where style meets taste</p>
+            </a>
+            </div>
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1">
+          <div class="offcanvas-body mx-auto">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
 
               <li class="nav-item">
-                <a class="nav-link btn my-2 brownbtn" aria-current="page" href="index.html">Home</a>
+                <a id="navitems" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link btn my-2 bluebtn" href="order.html">Place an order</a>
+                <a id="navitems" class="bluebtn " href="order.html">Place an order</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <li class="nav-item">
+                <a id="navitems" href="">Get in touch</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a class="dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Dropdown
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
@@ -70,13 +82,11 @@
                   </li>
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
-              </li>
+              </li> -->
+
             </ul>
-
-
-            
-           
           </div>
+
         </div>
       </div>
       </div>
