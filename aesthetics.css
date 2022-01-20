@@ -143,10 +143,10 @@ background-color: #63462D;
 } */
 
 .footme{
-    background-color: #63462D;
+    background-color: white ;
     filter: drop-shadow(2px 2px 2px #ffff);
     padding: 3vh;
-    color: white !important;
+    color: #63462D !important;
     
 }
 
@@ -174,4 +174,8 @@ html{
     color:#63462D;
     text-decoration: none;
     font-weight: bold;
+}
+
+a{
+    text-decoration: none;
 }
