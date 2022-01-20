@@ -144,8 +144,6 @@ background-color: #63462D;
 
 .footme{
     background-color: white ;
-    filter: drop-shadow(2px 2px 2px #ffff);
-    padding: 3vh;
     color: #63462D !important;
     
 }
