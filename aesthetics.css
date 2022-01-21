@@ -177,3 +177,10 @@ html{
 a{
     text-decoration: none;
 }
+
+
+.show-cart li {
+    display: flex;
+  }
+
+ 

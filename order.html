@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="carousel.css">
   <link rel="stylesheet" href="product.css">
   
+  
 
   <title>Brown Furniture Shop</title>
 
@@ -82,12 +83,16 @@
             <a id="navitems" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a id="navitems" class="bluebtn " href="order.html">Your Cart</a>
+            <a id="navitems"class="bluebtn" type="button" data-bs-toggle="modal" data-bs-target="#cart">Cart (<span class="total-count"></span>)</a>
+          </li>
+          <li class="nav-item">
+            <a id="navitems" class="clear-cart btn btn-danger">Clear Cart</a>
           </li>
           <li class="nav-item">
             <a id="navitems" href="">Get in touch</a>
           </li>
          
+          
 
         </ul>
       </div>
@@ -116,16 +121,16 @@
 
           <p class="text-start animate__animated animate__slideInDown animate__delay-1s">
 
-            <a href="#livingroom"
+            <a
             class="btn my-2 cartblue">Living Room Sets</a>
 
-            <a href="#dining"
+            <a
               class="btn my-2 cartbrown ">Dining Sets</a>
 
-            <a href="#bedroom"
+            <a
               class="btn my-2 cartbrown">Bedroom Furniture</a>
 
-            <a href="#restaurants"
+            <a
               class="btn my-2 cartblue">Restaurants and
               Diners</a>
           </p>
@@ -135,14 +140,15 @@
     </section>
 
 
-    <div class="accordion px-5">
+    <div class="accordion px-5" id="cats">
 
-      <div class="accordion-item accordion-flush" id="livingroom" tabindex="0"  data-bs-spy="scroll" data-bs-offset="0">
+      <div class="accordion-item accordion-flush" id="livingroom" >
         <h2 class="accordion-header" id="headingOne">
           <button class="accordion-button" id="cartbuttons" type="button" data-bs-toggle="collapse"
-            data-bs-target="#collapseOne" aria-expanded="flase" aria-controls="collapseOne">
+            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
             Living Room Sets
           </button>
+
         </h2>
         <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#cats">
 
@@ -160,11 +166,14 @@
               </div>
 
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
+                <p class="card-text">TLorem ipsum dolor sit amet, 
+                  consectetur adipiscing elit. 
+                  Vestibulum vel rhoncus massa, 
+                  in placerat mi. 
+                  Integer varius rutrum arcu eget vehicula.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Add to cart</button>
+                    <a href="#" type="button" data-name="Basket" data-price="5" class="add-to-cart btn btn-sm btn-primary">Add to cart</a>
                   </div>
                   <small class="text-muted">3 units available</small>
                 </div>
@@ -182,11 +191,14 @@
               </div>
 
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
+                <p class="card-text">Lorem ipsum dolor sit amet, 
+                  consectetur adipiscing elit. 
+                  Vestibulum vel rhoncus massa, 
+                  in placerat mi. 
+                  Integer varius rutrum arcu eget vehicula.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Add to cart</button>
+                    <a type="button" class="add-to-cart btn btn-sm btn-primary" data-name="Chair" data-price="5">Add to cart</a>
                   </div>
                   <small class="text-muted">3 units available</small>
                 </div>
@@ -203,11 +215,14 @@
               </div>
 
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
+                <p class="card-text">Lorem ipsum dolor sit amet, 
+                  consectetur adipiscing elit. 
+                  Vestibulum vel rhoncus massa, 
+                  in placerat mi. 
+                  Integer varius rutrum arcu eget vehicula.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Add to cart</button>
+                    <a  class="add-to-cart btn btn-sm btn-primary" data-name="Shelf" data-price="5">Add to cart</a>
                   </div>
                   <small class="text-muted">3 units available</small>
                 </div>
@@ -221,12 +236,14 @@
         </div>
       </div>
 
-      <div class="accordion-item accordion-flush" id="dining" tabindex="0" data-bs-spy="scroll" data-bs-offset="0">
+      <div class="accordion-item accordion-flush" id="dining" >
         <h2 class="accordion-header" id="headingTwo">
-          <button class="accordion-button collapsed" id="cartbuttons" type="button" data-bs-toggle="collapse"
-            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        
+
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
             Dining Sets
           </button>
+
         </h2>
         
         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#cats">
@@ -245,8 +262,11 @@
               </div>
 
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
+                <p class="card-text">Lorem ipsum dolor sit amet, 
+                  consectetur adipiscing elit. 
+                  Vestibulum vel rhoncus massa, 
+                  in placerat mi. 
+                  Integer varius rutrum arcu eget vehicula.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">Add to cart</button>
@@ -267,8 +287,11 @@
               </div>
 
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
+                <p class="card-text">Lorem ipsum dolor sit amet, 
+                  consectetur adipiscing elit. 
+                  Vestibulum vel rhoncus massa, 
+                  in placerat mi. 
+                  Integer varius rutrum arcu eget vehicula.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">Add to cart</button>
@@ -288,8 +311,11 @@
               </div>
 
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
+                <p class="card-text">Lorem ipsum dolor sit amet, 
+                  consectetur adipiscing elit. 
+                  Vestibulum vel rhoncus massa, 
+                  in placerat mi. 
+                  Integer varius rutrum arcu eget vehicula.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">Add to cart</button>
@@ -307,7 +333,7 @@
 
       </div>
 
-      <div class="accordion-item accordion-flush" id="bedroom" tabindex="0" data-bs-spy="scroll" data-bs-offset="0">
+      <div class="accordion-item accordion-flush" id="bedroom" >
         <h2 class="accordion-header" id="headingThree">
           <button class="accordion-button collapsed" id="cartbuttons" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -331,8 +357,11 @@
               </div>
 
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
+                <p class="card-text">Lorem ipsum dolor sit amet, 
+                  consectetur adipiscing elit. 
+                  Vestibulum vel rhoncus massa, 
+                  in placerat mi. 
+                  Integer varius rutrum arcu eget vehicula.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">Add to cart</button>
@@ -353,8 +382,11 @@
               </div>
 
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
+                <p class="card-text">Lorem ipsum dolor sit amet, 
+                  consectetur adipiscing elit. 
+                  Vestibulum vel rhoncus massa, 
+                  in placerat mi. 
+                  Integer varius rutrum arcu eget vehicula.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">Add to cart</button>
@@ -374,8 +406,11 @@
               </div>
 
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
+                <p class="card-text">Lorem ipsum dolor sit amet, 
+                  consectetur adipiscing elit. 
+                  Vestibulum vel rhoncus massa, 
+                  in placerat mi. 
+                  Integer varius rutrum arcu eget vehicula.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">Add to cart</button>
@@ -393,7 +428,7 @@
 
       </div>
 
-      <div class="accordion-item accordion-flush" id="restaurants" tabindex="0" data-bs-spy="scroll" data-bs-offset="0">
+      <div class="accordion-item accordion-flush" id="restaurants">
         <h2 class="accordion-header" id="headingThree">
           <button class="accordion-button collapsed" id="cartbuttons" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
@@ -417,8 +452,11 @@
               </div>
 
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
+                <p class="card-text">Lorem ipsum dolor sit amet, 
+                  consectetur adipiscing elit. 
+                  Vestibulum vel rhoncus massa, 
+                  in placerat mi. 
+                  Integer varius rutrum arcu eget vehicula.p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">Add to cart</button>
@@ -439,8 +477,11 @@
               </div>
 
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
+                <p class="card-text">Lorem ipsum dolor sit amet, 
+                  consectetur adipiscing elit. 
+                  Vestibulum vel rhoncus massa, 
+                  in placerat mi. 
+                  Integer varius rutrum arcu eget vehicula./p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">Add to cart</button>
@@ -460,8 +501,11 @@
               </div>
 
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
+                <p class="card-text">Lorem ipsum dolor sit amet, 
+                  consectetur adipiscing elit. 
+                  Vestibulum vel rhoncus massa, 
+                  in placerat mi. 
+                  Integer varius rutrum arcu eget vehicula.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">Add to cart</button>
@@ -479,7 +523,6 @@
 
       </div>
 
-
     </div>
 
 
@@ -492,12 +535,38 @@
       <h6 class="fw-bold text-end">We've got you covered</h6>
 
       <p class="text-end">
-        <a href="carouselrftd.html" class="btn my-2 cartblue">Let's Talk</a>
+        <a href="#" class="btn my-2 cartblue">Let's Talk</a>
       </p>
     </div>
 </div>
 </section>
   </main>
+
+
+
+  <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+            
+          </button>
+        </div>
+        <div class="modal-body">
+          <table class="show-cart table">
+            
+          </table>
+          <div>Total price: $<span class="total-cart"></span></div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Order now</button>
+        </div>
+      </div>
+    </div>
+  </div> 
+  
 
 
   <footer class="justify-content-end text-muted py-5 px-5 footme">
@@ -552,11 +621,8 @@
 
   </footer>
 
-
-  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
-    <script src="aesthetics.js"></script>
-
+<script src="jquery-3.6.0.js"></script>
+  <script src="bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+   
+  <script src="aesthetics.js"></script>
 </body>
